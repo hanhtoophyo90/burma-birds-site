@@ -37,5 +37,10 @@ function handleSearch() {
     renderBirds(filtered);
 }
 
-searchInput.addEventListener('input', handleSearch);
-window.onload = () => renderBirds(birdData);
+let debounceTimeout;
+searchInput.addEventListener('input', () => {
+  clearTimeout(debounceTimeout);
+  debounceTimeout = setTimeout(() => {
+    handleSearch();
+  }, 200); // 200 milliseconds delay
+});
