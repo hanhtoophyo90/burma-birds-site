@@ -78,5 +78,16 @@ const birdData = [
                 description: "A common and familiar bird in Burma, especially along the Irrawaddy River. It's a plain-looking bulbul with subtle streaks and is often found in gardens and urban areas.",
                 habitat: "Open woodland, cultivation, scrub, and gardens.",
                 conservation_status: "Least Concern"
+            },
+            {
+                id: 9,
+                name: "Rufous-necked Hornbill",
+                scientific_name: "Aceros nipalensis",
+                photo_url: "...",
+                photo_credit: "Photographer Name",
+                description: "A large hornbill...",
+                habitat: "Evergreen forests.",
+                conservation_status: "Vulnerable"
             }
+
 ];
