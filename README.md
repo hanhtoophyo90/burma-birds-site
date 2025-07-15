@@ -8,7 +8,7 @@ A beautifully designed static website that showcases the rich avian biodiversity
 
 ## 🌐 Live Demo
 
-[🔗 View Website on GitHub Pages](https://yourusername.github.io/burma-birds-site)
+[🔗 View Website on GitHub Pages](https://github.com/hanhtoophyo90/burma-birds-site.git)
 
 ---
 
