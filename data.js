@@ -1,4 +1,6 @@
-const birdData = [
+// **FIX**: The bird data is now embedded directly in the script.
+        // This avoids the 'fetch' error caused by trying to load a local file.
+        const allBirds = [
     {
                 id: 1,
                 name: "Burmese Bushlark",
